@@ -1,0 +1,7 @@
+.hero-right {
+  flex: 1;
+}
+
+.hero-right img {
+  border-radius: 10px;
+}
