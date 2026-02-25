@@ -1,0 +1,197 @@
+
+.container {
+  position: relative;
+  padding: 60px 48px 52px;
+  background: #f0f0f0;
+  overflow: hidden;
+  text-align: center;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+
+.deco {
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 0;
+}
+
+
+.deco--left {
+  width: 220px;
+  height: 220px;
+  background: linear-gradient(155deg, #e63030 0%, #ef6820 55%, #f9a020 100%);
+  left: -95px;
+  top: 10px;
+}
+
+.deco--right-top {
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(135deg, #ef6820, #f9a020);
+  right: 60px;
+  top: 28px;
+}
+
+.deco--right-bottom {
+  width: 76px;
+  height: 76px;
+  background: #f9a020;
+  right: 44px;
+  bottom: 68px;
+}
+
+
+.feedback__title {
+  position: relative;
+  z-index: 1;
+  font-size: 24px;
+  font-weight: 700;
+  color: #1a1a2e;
+  line-height: 1.55;
+  margin: 0 0 36px 0;
+}
+
+
+.feedback__card {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: stretch;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 6px 28px rgba(0, 0, 0, 0.09);
+  width: 600px;
+  margin: 0 auto 36px;
+  overflow: hidden;
+  text-align: left;
+  min-height: 210px;
+}
+
+/* Rasm — to'lqinli clip-path */
+.feedback__img-wrap {
+  flex-shrink: 0;
+  width: 230px;
+  overflow: hidden;
+  clip-path: ellipse(88% 100% at 0% 50%);
+  background: #c8a06b;
+}
+
+.feedback__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+}
+
+/* Matn */
+.feedback__text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 28px 28px 28px 14px;
+}
+
+.feedback__name {
+  font-size: 14px;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin: 0 0 4px 0;
+}
+
+.feedback__role {
+  font-size: 12px;
+  color: #f07030;
+  font-style: italic;
+  margin: 0 0 16px 0;
+}
+
+.feedback__quote {
+  font-size: 17px;
+  font-weight: 400;
+  color: #2d2d2d;
+  line-height: 1.65;
+  margin: 0;
+}
+
+
+.feedback__brands {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.brand-box {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 16px 10px;
+  min-height: 68px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.07);
+}
+
+/* Logo o'lchamlari */
+.brand-logo {
+  object-fit: contain;
+  display: block;
+}
+
+.brand-logo--pepsi {
+  width: 32px;
+  height: 32px;
+}
+
+.pepsi-label {
+  font-size: 15px;
+  font-weight: 900;
+  color: #003087;
+  font-family: 'Arial Black', Arial, sans-serif;
+  letter-spacing: 1px;
+}
+
+.brand-logo--circle {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+}
+
+
+.brand-box--twitch {
+  background: #6441a5;
+  border-radius: 10px;
+}
+
+.brand-logo--twitch {
+  width: 88px;
+  height: 28px;
+  filter: brightness(0) invert(1); /* oq rang */
+}
+
+/* More customers */
+.brand-box--more {
+  background: #ffffff;
+}
+
+.feedback__more {
+  color: #f9a020;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: opacity 0.2s;
+}
+
+.feedback__more:hover {
+  opacity: 0.7;
+}
