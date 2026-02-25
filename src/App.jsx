@@ -1,6 +1,4 @@
-import Header from "./components/header/Header";
-import Hero from "./components/hero/Hero";
-import Footer from "./components/footer/Footer"
+import HeroSection from "./components/hero/HeroSection";
 import "./App.css";
 
 
@@ -8,9 +6,7 @@ import "./App.css";
 function App() {
 	return (
 		<div className="container">
-			<Header/>
-			<Hero/>
-			<Footer/>
+			<HeroSection/>
 		</div>
 	);
 }
