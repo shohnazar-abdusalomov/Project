@@ -1,0 +1,16 @@
+.latest-section {
+    padding: 80px;
+    background: #f5f5f5;
+    text-align: center;
+}
+
+.latest-section h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+.latest-wrapper {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
